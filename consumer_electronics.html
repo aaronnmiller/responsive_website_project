@@ -1,0 +1,121 @@
+<!--Aaron Miller-->
+<!DOCTYPE html>
+<html lang = "en"> 
+    <head>
+        <title> Interesting Tech </title>
+        <link rel="stylesheet" href="css/style_sheet.css">
+        <link rel="stylesheet" href="css/styles-mobile.css" media="screen and (max-width: 480px)">
+        <link rel="stylesheet" href="css/styles-tablet.css" media="screen and (min-width: 481px) and (max-width: 768px)">
+        <link rel="stylesheet" href="css/styles-desktop.css" media="screen and (min-width: 769px)">
+        <script src="JS/script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon/favicon.ico">
+        <link rel="apple-touch-cion" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="images/favicon_io/android-chrome-192x192.png">
+    </head>
+    <body>
+        <audio id="glass-breaking" src="media/glass-breaking.mp3"></audio>
+        <header>
+            <div id="tech_icon_header">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="44px" length="44px">
+            </div>
+            <h1 id="long_title">Interesting Technology Website</h1>
+            <h1 id="short_title">Interesting Technology</h1>
+            <a id="menu_icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </header>
+        <section id="nav_list">
+            <div id="banner_image">
+                <img src="Images/tech_banner.png" alt="programming logo" width="100%">
+            </div>
+            <div id="tech_icon">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="200px" length="200px">
+            </div>
+            <nav>
+                <!--Side bar-->
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="artificial_intelligence.html">Artificial Intelligence</a></li>
+                    <li><a href="consumer_electronics.html">Consumer Electronics</a></li>
+                    <li><a href="self_driving_vehicles.html">Self Driving Vehicles</a></li>
+                    <li><a href="old_school.html">Old School Technology</a></li>
+                    <li id="more_information"><a href="more_information.html">More Information</a></li>
+                </ul>
+            </nav>
+        </section>
+        <main>
+            <div id="main_title">
+                Consumer Electronics
+            </div>
+            <div id="main_text">
+                Consumer electronics are products that are meant for personal use rather than commercial use and are easily available to the average person.
+            </div>
+            <section id="example_pictures">
+                <figure class="example_figure">
+                    <div id="example_title">Lenovo ThinkPad X1 Fold</p>
+                    <div>
+                        A fully functional PC with a foldable OLED display for mobile productivity.
+                    </div>
+                    <a href="https://news.lenovo.com/pressroom/press-releases/worlds-first-foldable-pc-thinkpad-x1-fold-ushers-in-a-new-era-of-mobile-computing/">
+                        <img src="images/lenovo_thinkpad.webp" alt="Lenovo Thinkpad X1 Fold" width= 250px>
+                    </a>
+                    <figcaption>Lenovo Thinkpad X1 Fold</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Hydraloop Water Recycler</div>
+                    <div>
+                        Hydraloop offers compact, smart, self-cleaning water recycling products.
+                    </div>
+                    <a href="https://www.hydraloop.com">
+                        <img src="images/hydraloop.webp" alt="Hydraloop" width= 250px>
+                    </a>
+                    <figcaption>Hydraloop products</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Samsung Odyssey G9 Monitor</div>
+                    <div>
+                        49 inch curved gaming monitor.
+                    </div>
+                    <a href="https://www.samsung.com/us/computing/monitors/gaming/49--odyssey-g9-gaming-monitor-lc49g95tssnxza/">
+                        <img src="images/samsung_monitor.webp" alt="Samsung Odyssey G9 Monitor" width= 250px>
+                    </a>
+                    <figcaption>Samsung Odyssey G9 Monitor</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Samsung Ballie</div>
+                    <div>
+                        A rolling personal assistant that can help you with anything from fitness, controling smarthome devices, or even acting as a security guard.
+                    </div>
+                    <a href="https://news.samsung.com/us/samsung-ballie-ces-2020/">
+                        <img src="images/samsung_ballie.webp" alt="Samsung Ballie" width= 250px>
+                    </a>
+                    <figcaption>Samsung Ballie</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Self-Sealing and Self-Changing Trash Can</div>
+                    <div>
+                        A garbage can that can change the bag and seal full bags for you.
+                    </div>
+                    <a href="https://www.amazon.com/TOWNEW-Self-Sealing-Self-Changing-Automatic-Activated/dp/B07TXKHB95">
+                        <img src="images/trashcan.png" alt="Samsung Ballie" width= 250px>
+                    </a>
+                    <figcaption>TOWNEW garbange can</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Hoverboards</div>
+                    <video height="240" controls="controls" >
+                        <source src="media/mr_mattek_hoverboard.mp4" type="video/mp4">
+                        <p>Your browser does not support the video element.</p>
+                    </video>
+                </figure>
+            </section>
+        </main>
+        <footer>
+            <p><a href="mailto:aaron.miller@mail.wlc.edu">Email me! Aaron Miller (WLC email)</a></p>
+            <p><a href="tel:262-378-8576">Or call/text! 262-378-8576</a></p>
+        </footer>
+    </body>
+</html>

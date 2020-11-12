@@ -1,0 +1,141 @@
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+    header {
+        position: fixed;
+        top: 0;
+        text-align: center;
+        font-size: .9em;
+        background: #2d7cfa;
+        width: 100%;
+    }
+    html {
+        height: 100%;
+    }
+    header h1 {
+        font-family: 'Shadows Into Light';
+        width: 100%;
+        background: #2d7cfa;
+    }
+    #short_title {
+        display: none;
+    }
+    #tech_icon_header {
+        float: left;
+        padding: 3px;
+        opacity: .7;
+    }
+    #banner_image {
+        width: 100%;
+        height: auto;
+    }
+    #main_title {
+        padding-top: 10px;
+        float: left;
+        width: 50%;
+        font-size: 2.5em;
+    }
+    #main_text {
+        font-size: 1.5em;
+    }
+    #nav_list nav ul {
+        list-style-type: none;
+        text-align: left;
+        width: 40%;
+    }
+    #nav_list nav ul li {
+        font-size: 1.2em;
+        padding-right: 5px;
+    }
+    #menu_icon {
+        display: none;
+    }
+    #tech_icon {
+        display: none;
+    }
+    #example_pictures {
+        margin-top: 15px;
+        display: grid;
+        float: left;
+        grid-template-columns: auto auto;
+        grid-row-gap: 20px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    #example_title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #example_figure {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    #map_text {
+        padding-top: 15px;
+        font-size: 1.75em;
+        width: 100%;
+        float: left;
+    }
+    #maps {
+        position: center;
+        float: left;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+    }
+    body{
+        margin-bottom: 40px;
+    }
+    form {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 10px;
+    }
+    .form_element {
+        display: block;
+        padding-top: 5px;
+    }
+    #general_information {
+        display: inline-block;
+    }
+    #submit_button {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    table caption {
+        font-size: 1.5em;
+    }
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+        text-align: center;
+    }
+    table {
+        border-collapse: collapse;
+        margin: auto;
+    }
+    tr:nth-child(odd) {
+        background-color: gray;
+    }
+    tr:nth-child(even) {
+        background-color: lightgray;
+    }
+    #features_list {
+        display: none;
+    }
+    footer {
+        display: inline-block;
+        bottom:0;
+        width:100%;
+        height:40px;
+        background: gray;
+    }
+}

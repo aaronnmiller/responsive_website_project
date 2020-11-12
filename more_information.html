@@ -1,0 +1,140 @@
+<!--Aaron Miller-->
+<!DOCTYPE html>
+<html lang = "en"> 
+    <head>
+        <title> Interesting Tech </title>
+        <link rel="stylesheet" href="css/style_sheet.css">
+        <link rel="stylesheet" href="css/styles-mobile.css" media="screen and (max-width: 480px)">
+        <link rel="stylesheet" href="css/styles-tablet.css" media="screen and (min-width: 481px) and (max-width: 768px)">
+        <link rel="stylesheet" href="css/styles-desktop.css" media="screen and (min-width: 769px)">
+        <script src="JS/script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon/favicon.ico">
+        <link rel="apple-touch-cion" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="images/favicon_io/android-chrome-192x192.png">
+    </head>
+    <body>
+        <audio id="glass-breaking" src="media/glass-breaking.mp3"></audio>
+        <header>
+            <div id="tech_icon_header">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="44px" length="44px">
+            </div>
+            <h1 id="long_title">Interesting Technology Website</h1>
+            <h1 id="short_title">Interesting Technology</h1>
+            <a id="menu_icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </header>
+        <section id="nav_list">
+            <div id="banner_image">
+                <img src="Images/tech_banner.png" alt="programming logo" width="100%">
+            </div>
+            <div id="tech_icon">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="200px" length="200px">
+            </div>
+            <nav>
+                <!--Side bar-->
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="artificial_intelligence.html">Artificial Intelligence</a></li>
+                    <li><a href="consumer_electronics.html">Consumer Electronics</a></li>
+                    <li><a href="self_driving_vehicles.html">Self Driving Vehicles</a></li>
+                    <li><a href="old_school.html">Old School Technology</a></li>
+                    <li id="more_information"><a href="more_information.html">More Information</a></li>
+                </ul>
+            </nav>
+        </section>
+        <main>
+            <div id="main_title">
+                More Information
+            </div>
+            <div id="main_text">
+                Sign up for our newsletter! Yes, we realize we are asking for a lot of information. No, you should not question it.
+            </div>
+            <section>
+                <form id="forms">
+                    <fieldset id="about_you">
+                        <legend>About you</legend>
+                        <div class="form_element">
+                            <label>First Name:</label>
+                            <textarea name="name" rows="1" cols="30" required placeholder="Aaron"></textarea> 
+                        </div>
+                        <div class="form_element">
+                            <label>Last Name:</label>
+                            <textarea name="name" rows="1" cols="30" required placeholder="Rodgers"></textarea> 
+                        </div>
+                        <div class="form_element">
+                            <label>Gender:</label>
+                            <input type="radio" id="gender_male" value="Male" name="user_gender">
+                            <label for="gender_male">Male</label>
+                            <input type="radio" id="gender_female" value="Female" name="user_gender">
+                            <label for="gender_female">Female</label>
+                        </div>
+                        <div class="form_element">
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" name="birthday" placeholder="MM/DD/YYYY">
+                        </div>
+                    </fieldset>
+                    <fieldset id="contact_information">
+                        <legend>Contact information</legend>
+                        <div class="form_element">
+                            <label>Email:</label>
+                            <textarea name="email" rows="1" cols="30" required placeholder="example@domain.com"></textarea> 
+                        </div>
+                        <div class="form_element">
+                            <label>Phone number:</label>
+                            <textarea name="phone" rows="1" cols="30" placeholder="111-222-3345"></textarea> 
+                        </div>
+                        <div class="form_element">
+                            <label>Street Address:</label>
+                            <textarea name="address" rows="1" cols="30" placeholder="123 Main Street"></textarea> 
+                        </div>
+                        <div class="form_element">
+                            <label>City/Town:</label>
+                            <textarea name="city" rows="1" cols="30" placeholder="Ashwaubenon"></textarea> 
+                        </div>
+                        <div class="form_element">
+                            <label>State:</label>
+                            <textarea name="state" rows="1" cols="30" placeholder="WI"></textarea> 
+                        </div>
+                        <div class="form_element">
+                            <label>Zip code:</label>
+                            <textarea name="zip_code" rows="1" cols="30" placeholder="12345"></textarea> 
+                        </div>
+                    </fieldset>
+                    <fieldset id="interests">
+                        <legend>Interests</legend>
+                        <div class="form_element">
+                            <label>Which part of the site do you find most interesting?</label>
+                            <select name="interesting_topic">
+                                <option>Artificial Intelligence</option>
+                                <option>Consumer Electronics</option>
+                                <option>Self Driving Vehicles</option>
+                                <option>Old School Technology</option>
+                              </select>
+                        </div>
+                        <div class="form_element">
+                            <label>What would you like us to send you more information on?</label>
+                            <select name="interesting_topic">
+                                <option>Artificial Intelligence</option>
+                                <option>Consumer Electronics</option>
+                                <option>Self Driving Vehicles</option>
+                                <option>Old School Technology</option>
+                              </select>
+                        </div>
+                    </fieldset>
+                    <div id="submit_button">
+                        <input type="reset" value"Reset">
+                        <input type="submit" value"Submit">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p><a href="mailto:aaron.miller@mail.wlc.edu">Email me! Aaron Miller (WLC email)</a></p>
+            <p><a href="tel:262-378-8576">Or call/text! 262-378-8576</a></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,214 @@
+<!--Aaron Miller-->
+<!DOCTYPE html>
+<html lang = "en"> 
+    <head>
+        <title> Interesting Tech </title>
+        <link rel="stylesheet" href="css/style_sheet.css">
+        <link rel="stylesheet" href="css/styles-mobile.css" media="screen and (max-width: 480px)">
+        <link rel="stylesheet" href="css/styles-tablet.css" media="screen and (min-width: 481px) and (max-width: 768px)">
+        <link rel="stylesheet" href="css/styles-desktop.css" media="screen and (min-width: 769px)">
+        <script src="JS/script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon/favicon.ico">
+        <link rel="apple-touch-cion" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="images/favicon_io/android-chrome-192x192.png">
+    </head>
+    <body>
+        <audio id="glass-breaking" src="media/glass-breaking.mp3"></audio>
+        <header>
+            <div id="tech_icon_header">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="44px" length="44px">
+            </div>
+            <h1 id="long_title">Interesting Technology Website</h1>
+            <h1 id="short_title">Interesting Technology</h1>
+            <a id="menu_icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </header>
+        <section id="nav_list">
+            <div id="banner_image">
+                <img src="Images/tech_banner.png" alt="programming logo" width="100%">
+            </div>
+            <div id="tech_icon">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="200px" length="200px">
+            </div>
+            <nav>
+                <!--Side bar-->
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="artificial_intelligence.html">Artificial Intelligence</a></li>
+                    <li><a href="consumer_electronics.html">Consumer Electronics</a></li>
+                    <li><a href="self_driving_vehicles.html">Self Driving Vehicles</a></li>
+                    <li><a href="old_school.html">Old School Technology</a></li>
+                    <li id="more_information"><a href="more_information.html">More Information</a></li>
+                </ul>
+            </nav>
+        </section>
+        <main>
+            <div id="main_title">
+                Self Driving Vehicles
+            </div>
+            <div id="main_text">
+                Vehicles today can be able to steer, accelerate, and brake on their own. 
+                Most car companies have not fully developed a completely autonomous car, most current 
+                cars have some characteristics of a self driving car, but not everything. 
+            </div>
+            <section id="example_pictures">
+                <figure class="example_figure">
+                    <div id="example_title">Toyota RAV4</p>
+                    <div>
+                        Pedestrian detection, automatic emergency braking, road sign recognition, and lane tracking
+                    </div>
+                    <a href="https://cars.usnews.com/cars-trucks/toyota/rav4/2019">
+                        <img src="images/toyota_rav4.jpg" alt="2019 Toyota RAV4" width= 250px>
+                    </a>
+                    <figcaption>2019 Toyota RAV4</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Tesla Model 3</div>
+                    <div>
+                        Base model includes automatic emergency braking and forward and side collision warning. It also includes the ability
+                        to steer, accelerate, brake, and change lanes. There is a full self driving capability system available as well, which inclues features such as self-parking and summoning.
+                    </div>
+                    <a href="https://cars.usnews.com/cars-trucks/tesla/model-3/2019">
+                        <img src="images/tesla_model_3.jpg" alt="Red Tesla Model 3" width= 250px>
+                    </a>
+                    <figcaption>Tesla Model 3</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Volvo XC60</div>
+                    <div>
+                        It includes senors to scan for pedestrians and large animals, can perform evasive maneuvers to avoid crashes,
+                        can alert you if you are too close to the car in front of you, and can even wake you up if 
+                        it senses you are starting to fall asleep. The optional package addition can accelerate, steer, and brake as well.
+                    </div>
+                    <a href="https://cars.usnews.com/cars-trucks/volvo/xc60">
+                        <img src="images/volvo_xc60.jpg" alt="2020 Volvo XC60" width= 250px>
+                    </a>
+                    <figcaption>Volvo XC60</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">BMW 5 Series</div>
+                    <div>
+                        Base model includes pedestrian detection, adaptive cruise control, and parking sensors. 
+                        Additional add-ons can include automatic parking and cruise control for stop-and-go traffic.
+                    </div>
+                    <a href="https://cars.usnews.com/cars-trucks/bmw/5-series/2019">
+                        <img src="images/bmw_5series.jpg" alt="2018 BMW 5 Series" width= 250px>
+                    </a>
+                    <figcaption>2018 BMW 5 Series</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Lexus LS</div>
+                    <div>
+                        An optional package can be added to the base model that includes lane change assist,
+                        dynamic radar cruise control, and steering assist.
+                    </div>
+                    <a href="https://cars.usnews.com/cars-trucks/lexus/ls">
+                        <img src="images/lexus_ls.jpg" alt="2018 Lexus LS" width= 250px>
+                    </a>
+                    <figcaption>2018 Lexus LS</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Tesla Model X</div>
+                    <div>
+                        The Model X is the SUV version of Tesla's cars. Like the Model 3, the Model X inclues safety features
+                        such as collision warning and emergency braking, but the Enhanced Autopilot package includes speed maintance
+                        in traffic, self-parking, and summoning.
+                    </div>
+                    <a href="https://cars.usnews.com/cars-trucks/tesla/model-x/2019">
+                        <img src="images/tesla_model_x.jpg" alt="Tesla Model X" width= 250px>
+                    </a>
+                    <figcaption>Tesla Model X</figcaption>
+                </figure>
+            </section>
+            <section id="features_list">
+                <div id = "features_title">Cars with the most features, most to least</div>
+                <ol>
+                    <li>Tesla Model X</li>
+                    <li>Tesla Model 3</li>
+                    <li>Volvo XC60</li>
+                    <li>BMW 5 Series</li>
+                    <li>Lexus LS</li>
+                    <li>Toyota RAV4</li>
+                    <li>1968 Chevy Camero</li>
+                </ol>
+            </section>
+            <table>
+                <caption>Comparing Features of Self Driving Cars</caption>
+                <th>
+                    <td>Collision Warning</td>
+                    <td>Emergency braking</td>
+                    <td>Speed Maintance</td>
+                    <td>Self parking</td>
+                    <td>Steering Assist</td>
+                    <td>Summoning</td>
+                </th>
+                <tr>
+                    <td>Toyota RAV4</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Tesla Model 3</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Volvo XC60</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>BMW 5 Series</td>
+                    <td>X</td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Lexus LS</td>
+                    <td>X</td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Tesla Model X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>1968 Chevy Camero</td>
+                    <td colspan="6">This car has absolutely none of these features.</td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <p><a href="mailto:aaron.miller@mail.wlc.edu">Email me! Aaron Miller (WLC email)</a></p>
+            <p><a href="tel:262-378-8576">Or call/text! 262-378-8576</a></p>
+        </footer>
+    </body>
+</html>

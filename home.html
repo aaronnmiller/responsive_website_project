@@ -1,0 +1,71 @@
+<!--Aaron Miller-->
+<!DOCTYPE html>
+<html lang = "en"> 
+    <head>
+        <title>Interesting Tech</title>
+        <link rel="stylesheet" href="css/style_sheet.css">
+        <link rel="stylesheet" href="css/styles-mobile.css" media="screen and (max-width: 480px)">
+        <link rel="stylesheet" href="css/styles-tablet.css" media="screen and (min-width: 481px) and (max-width: 768px)">
+        <link rel="stylesheet" href="css/styles-desktop.css" media="screen and (min-width: 769px)">
+        <script src="JS/script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon/favicon.ico">
+        <link rel="apple-touch-cion" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="images/favicon_io/android-chrome-192x192.png">
+    </head>
+    <body>
+        <audio id="glass-breaking" src="media/glass-breaking.mp3"></audio>
+        <header>
+            <div id="tech_icon_header">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="44px" length="44px">
+            </div>
+            <h1 id="long_title">Interesting Technology Website</h1>
+            <h1 id="short_title">Interesting Technology</h1>
+            <a id="menu_icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </header>
+        <section id="nav_list">
+            <div id="banner_image">
+                <img src="Images/tech_banner.png" alt="programming logo" width="100%">
+            </div>
+            <div id="tech_icon">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="200px" length="200px">
+            </div>
+            <nav>
+                <!--Side bar-->
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="artificial_intelligence.html">Artificial Intelligence</a></li>
+                    <li><a href="consumer_electronics.html">Consumer Electronics</a></li>
+                    <li><a href="self_driving_vehicles.html">Self Driving Vehicles</a></li>
+                    <li><a href="old_school.html">Old School Technology</a></li>
+                    <li id="more_information"><a href="more_information.html">More Information</a></li>
+                </ul>
+            </nav>
+        </section>
+        <main>
+            <div id="main_title">
+                Home
+            </div>
+            <div id="main_text">
+                Technology is spreading to almost every part of our lives, and while some of it may seem unnecessary, it can still be amazing.
+                This website will show some of the weirdest but also cool new technology, both for commercial and personal use.
+            </div>
+            <div id="map_text">
+                <p style="font-size: 1.2em">A few places where interesting tech is created:</p>
+            </div>
+            <div id="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.636510448731!2d-122.08627838469249!3d37.422065579825265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sus!4v1599851651915!5m2!1sen!2sus" width=100% height=400px frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.3258105326236!2d-122.01119598436652!3d37.3347945798419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb596e9e188fd%3A0x3b0d8391510688f0!2sApple%20Park!5e0!3m2!1sen!2sus!4v1599851734816!5m2!1sen!2sus" width=100% height=400px frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6339.671432622492!2d-122.15297347441559!3d37.39371724703982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccc17e4da6b38370!2sTesla%20HQ!5e0!3m2!1sen!2sus!4v1600977416436!5m2!1sen!2sus" width=100% height=400px frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </main>
+        <footer>
+            <p><a href="mailto:aaron.miller@mail.wlc.edu">Email me! Aaron Miller (WLC email)</a></p>
+            <p><a href="tel:262-378-8576">Or call/text! 262-378-8576</a></p>
+        </footer>
+    </body>
+</html>

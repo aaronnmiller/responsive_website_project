@@ -1,0 +1,138 @@
+@media screen and (min-width: 769px) { 
+    header {
+        top: 0;
+        text-align: left;
+        font-size: .9em;
+        float: left;
+        width: 100%
+    }
+    html {
+        height: 100%;
+    }
+    header h1 {
+        font-family: 'Shadows Into Light';
+        width: 50%;
+        background: #2d7cfa;
+        margin-left: 15px;
+    }
+    #short_title {
+        display: none;
+    }
+    #tech_icon_header {
+        float: left;
+        padding: 3px;
+        opacity: .7;
+    }
+    #banner_image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 8px;
+    }
+    #main_title {
+        padding-top: 20px;
+        width: 50%;
+        font-size: 2.5em;
+    }
+    nav ul {
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        float: center;
+        width: 100%;
+        margin-bottom: 8px;
+        padding: 0px;
+    }
+    nav ul li {
+        display: inline;
+        width: 100%;
+        font-size: 1.2em;
+        padding-right: 12px;
+    }
+    #menu_icon {
+        display: none;
+    }
+    #tech_icon {
+        display: none;
+    }
+    #example_pictures {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-row-gap: 20px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    #example_title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #example_figure {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        text-align: center;
+    }
+    #maps {
+        position: center;
+        float: left;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 15px;
+    }
+    body{
+        margin-bottom: 40px;
+    }
+    form {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 10px;
+    }
+    .form_element {
+        display: block;
+        padding-top: 5px;
+    }
+    #submit_button {
+        grid-column: 1 / span 2;
+        text-align: center;
+        font-size: 1.5em;
+      }
+    table caption {
+        font-size: 1.5em;
+    }
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        text-align: center;
+    }
+    table {
+        border-collapse: collapse;
+        margin: auto;
+    }
+    tr:nth-child(odd) {
+        background-color: gray;
+    }
+    tr:nth-child(even) {
+        background-color: lightgray;
+    }
+    #features_list {
+        display: none;
+    }
+    footer {
+        bottom:0;
+        width:100%;
+        height:40px;
+        background: gray;
+        display: inline-block;
+    }
+    nav ul li a:hover {
+        background-color: #276bd9;
+        border-radius: 5px;
+    }
+}

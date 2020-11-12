@@ -1,0 +1,121 @@
+<!--Aaron Miller-->
+<!DOCTYPE html>
+<html lang = "en"> 
+    <head>
+        <title> Interesting Tech </title>
+        <link rel="stylesheet" href="css/style_sheet.css">
+        <link rel="stylesheet" href="css/styles-mobile.css" media="screen and (max-width: 480px)">
+        <link rel="stylesheet" href="css/styles-tablet.css" media="screen and (min-width: 481px) and (max-width: 768px)">
+        <link rel="stylesheet" href="css/styles-desktop.css" media="screen and (min-width: 769px)">
+        <script src="JS/script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon/favicon.ico">
+        <link rel="apple-touch-cion" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="images/favicon_io/android-chrome-192x192.png">
+    </head>
+    <body>
+        <audio id="glass-breaking" src="media/glass-breaking.mp3"></audio>
+        <header>
+            <div id="tech_icon_header">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="44px" length="44px">
+            </div>
+            <h1 id="long_title">Interesting Technology Website</h1>
+            <h1 id="short_title">Interesting Technology</h1>
+            <a id="menu_icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </header>
+        <section id="nav_list">
+            <div id="banner_image">
+                <img src="Images/tech_banner.png" alt="programming logo" width="100%">
+            </div>
+            <div id="tech_icon">
+                <img onclick="document.getElementById('glass-breaking').play()" src="Images/tech_icon.webp" alt="tech icon" width="200px" length="200px">
+            </div>
+            <nav>
+                <!--Side bar-->
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="artificial_intelligence.html">Artificial Intelligence</a></li>
+                    <li><a href="consumer_electronics.html">Consumer Electronics</a></li>
+                    <li><a href="self_driving_vehicles.html">Self Driving Vehicles</a></li>
+                    <li><a href="old_school.html">Old School Technology</a></li>
+                    <li id="more_information"><a href="more_information.html">More Information</a></li>
+                </ul>
+            </nav>
+        </section>
+        <main>
+            <div id="main_title">
+                Old School Technology
+            </div>
+            <div id="main_text">
+                Some of the most useful technology might not be new, but actually has been around for a long time.
+                These are some old technologies that we still use today.
+            </div>
+            <section id="example_pictures">
+                <figure class="example_figure">
+                    <div id="example_title">Microwave Oven</p>
+                    <div>
+                        In 1945, Percy Spencer discovered this technology when standing in front of a magnetron with a candy bar in his pocket.
+                        The candy bar melted, and this discovery led to the first Radarange in 1947 that cost $5,000 and weighed 750lbs.
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Microwave_oven">
+                        <img src="images/radar_range.jpg" alt="Radar range" width= 250px>
+                    </a>
+                    <figcaption>A Radarange</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">The hard drive</div>
+                    <div>
+                        IBM introduced the IBM Model 305 RAMAC in 1957. Before this, files were stored either on magnetic tape or paper,
+                        but the hard drive changed this by storing data with magnetic orientations.
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/History_of_hard_disk_drives">
+                        <img src="images/hard_drive.webp" alt="IBM hard drive" width= 250px>
+                    </a>
+                    <figcaption>IBM hard drive from the 1950s</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Kevlar</div>
+                    <div>
+                        Kevlar is a strong, heat-resistant synthetic fiber. First developed by Stephanie Kwolek in 1965,
+                        it was first used as a replacement for steel in racing tires. Now it has uses from tires to bulletproof vests.
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Kevlar">
+                        <img src="images/kevlar.jpg" alt="Yellow kevlar" width= 250px>
+                    </a>
+                    <figcaption>Kevlar</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Pacemakers</div>
+                    <div>
+                        A pacemaker is a device that regulates one's heartbeat through electric pulses. 
+                        The first implantable pacemaker was implanted in 1958, but failed three hours later.
+                        The receiver of the first pacemaker received 25 more over his lifetime and died in 2001 at the age of 86.
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Artificial_cardiac_pacemaker#History">
+                        <img src="images/pacemaker.jpg" alt="Pacemaker implantat" width= 250px>
+                    </a>
+                    <figcaption>An old pacemaker implant site</figcaption>
+                </figure>
+                <figure class="example_figure">
+                    <div id="example_title">Optical Fiber </div>
+                    <div>
+                        Optical fiber is strands of glass thinner than a human hair that is clear enough to transmit light though over long distances. 
+                        It was first demonstrated in the 1840s, but the technology did not become efficient and practical enough until 1970.
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Optical_fiber">
+                        <img src="images/optical_fiber.dms" alt="Colorful optical fibers" width= 250px>
+                    </a>
+                    <figcaption>Colorful optical fibers</figcaption>
+                </figure>
+            </section>
+        </main>
+        <footer>
+            <p><a href="mailto:aaron.miller@mail.wlc.edu">Email me! Aaron Miller (WLC email)</a></p>
+            <p><a href="tel:262-378-8576">Or call/text! 262-378-8576</a></p>
+        </footer>
+    </body>
+</html>
